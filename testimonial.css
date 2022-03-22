@@ -1,0 +1,33 @@
+.testimonial {
+  padding-top: 100px;
+}
+.testimonial .col-3 {
+  text-align: center;
+  padding: 40px 20px;
+  display: space-around;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.6s;
+}
+.testimonial .col-3:hover {
+  transform: translateY(-10px);
+}
+.testimonial .col-3 img {
+  width: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+.bi.bi-quote {
+  color: #ff523b;
+  font-size: 32px;
+}
+.col-3 p {
+  font-size: 16px;
+  margin: 12px 0;
+  color: #777;
+}
+.testimonial .col-3 h3 {
+  font-weight: 600;
+  color: #555;
+  font-size: 18px;
+}

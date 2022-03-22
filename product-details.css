@@ -1,0 +1,45 @@
+.small-container {
+  margin-top: 10px;
+}
+.small-container .col-2 img {
+  padding: 0;
+}
+.small-container .col-2 {
+  padding: 25px;
+}
+.small-container h4 {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.small-container select {
+  display: block;
+  padding: 10px;
+  margin-top: 10px;
+}
+.small-container input {
+  width: 50px;
+  height: 36px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  border: 1px solid #ff523b;
+}
+.small-container input:focus {
+  outline: none;
+}
+.small-container .bi {
+  color: #ff523b;
+  margin-left: 10px;
+}
+.small-img-row {
+  display: flex;
+  justify-content: space-between;
+}
+.small-img-col {
+  height: 100px;
+  width: 105px;
+  margin-top: 26px;
+  display: inline-block;
+  cursor: pointer;
+}
